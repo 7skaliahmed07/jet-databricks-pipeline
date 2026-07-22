@@ -7,7 +7,7 @@ The pipeline is built using the **Databricks Medallion Architecture** (Bronze, S
 
 ## 🏗️ Architecture & Data Flow
 
-*(Note: Add a screenshot of your pipeline diagram here. You can draw one quickly in draw.io)*
+
 
 1. **Extraction (Local/Python):** - `generate_orders.py`: Generates synthetic delivery order data using the `Faker` library.
    - `fetch_weather.py`: Pulls real, hourly weather data for Amsterdam using the Open-Meteo REST API.
